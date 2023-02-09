@@ -35,6 +35,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@vitejs/plugin-react-swc", "virtual:1dd5d504c6416d94b53074b4346976a955a1ff3028f1d18b63d32f0e3c7a3de3f10c3cf419edf8c52edf10d816988808e6a3d76f0faf587daf4a3e5bbcef3fe0#npm:3.1.0"],\
             ["eslint", "npm:8.33.0"],\
             ["eslint-plugin-react", "virtual:1dd5d504c6416d94b53074b4346976a955a1ff3028f1d18b63d32f0e3c7a3de3f10c3cf419edf8c52edf10d816988808e6a3d76f0faf587daf4a3e5bbcef3fe0#npm:7.32.2"],\
+            ["prettier", "npm:2.8.4"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:1dd5d504c6416d94b53074b4346976a955a1ff3028f1d18b63d32f0e3c7a3de3f10c3cf419edf8c52edf10d816988808e6a3d76f0faf587daf4a3e5bbcef3fe0#npm:18.2.0"],\
             ["typescript", "patch:typescript@npm%3A4.9.5#~builtin<compat/typescript>::version=4.9.5&hash=ad5954"],\
@@ -2919,6 +2920,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["prettier", [\
+        ["npm:2.8.4", {\
+          "packageLocation": "./.yarn/cache/prettier-npm-2.8.4-ba64a351d1-c173064bf3.zip/node_modules/prettier/",\
+          "packageDependencies": [\
+            ["prettier", "npm:2.8.4"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["promise-inflight", [\
         ["npm:1.0.1", {\
           "packageLocation": "./.yarn/cache/promise-inflight-npm-1.0.1-5bb925afac-2274948309.zip/node_modules/promise-inflight/",\
@@ -3450,6 +3460,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@vitejs/plugin-react-swc", "virtual:1dd5d504c6416d94b53074b4346976a955a1ff3028f1d18b63d32f0e3c7a3de3f10c3cf419edf8c52edf10d816988808e6a3d76f0faf587daf4a3e5bbcef3fe0#npm:3.1.0"],\
             ["eslint", "npm:8.33.0"],\
             ["eslint-plugin-react", "virtual:1dd5d504c6416d94b53074b4346976a955a1ff3028f1d18b63d32f0e3c7a3de3f10c3cf419edf8c52edf10d816988808e6a3d76f0faf587daf4a3e5bbcef3fe0#npm:7.32.2"],\
+            ["prettier", "npm:2.8.4"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:1dd5d504c6416d94b53074b4346976a955a1ff3028f1d18b63d32f0e3c7a3de3f10c3cf419edf8c52edf10d816988808e6a3d76f0faf587daf4a3e5bbcef3fe0#npm:18.2.0"],\
             ["typescript", "patch:typescript@npm%3A4.9.5#~builtin<compat/typescript>::version=4.9.5&hash=ad5954"],\
